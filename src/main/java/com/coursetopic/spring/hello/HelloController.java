@@ -8,6 +8,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String SayHello(){
+        System.out.println("Called");
         return "My First Web App";
     }
 }
